@@ -1,0 +1,23 @@
+# 1.-  Editar el archivo source.list en /etc/apt/source.list
+
+# 2.-  actualizar el souce.list  
+apt update
+
+#  3.- Comprobar que se va a actualizar
+apt list --upgradable
+
+#  4.- Actualizar 
+apt upgrade
+
+#  5.- elegimos la codificación de españa UTF-8
+dpkg-reconfigure locales
+
+#  6.-  Elegimos la configuración del teclado
+dpkg-reconfigure keyboard-configuration
+
+#  7.-  Elegimos la zona horaria
+dpkg-reconfigure tzdata
+
+#
+
+#
