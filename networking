@@ -1,0 +1,7 @@
+# updateamos las source.list
+apt update
+
+# Nos aseguramos que está instalado el openssh-server
+apt install openssh-server
+
+#
