@@ -1,0 +1,9 @@
+#  1.- Elegimos la codificación de españa UTF-8
+dpkg-reconfigure locales
+
+#  2.-  Elegimos la configuración del teclado
+dpkg-reconfigure keyboard-configuration
+
+#  3.-  Elegimos la zona horaria
+dpkg-reconfigure tzdata
+
