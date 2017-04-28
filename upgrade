@@ -1,0 +1,12 @@
+# 1.-  Editar el archivo source.list en /etc/apt/source.list
+
+# 2.-  actualizar el souce.list  
+apt update
+
+#  3.- Comprobar que se va a actualizar
+apt list --upgradable
+
+#  4.- Actualizar 
+apt upgrade
+
+
